@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADMIN ACCOUNT "
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/addRoomAdminButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD ROOM"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/viewRoomAdminButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW ROOM"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/addScheduleAdminButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD SCHEDULE"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/viewScheduleAdminButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW SCHEDULE OF CLASSES"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/availableRoomsAdminButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AVAILABLE FREE ROOMS"
+        android:textSize="24sp" />
+</LinearLayout>
